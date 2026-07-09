@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+# virtual environments
+.venv/
+venv/
+
+# PyInstaller build output
+build/
+dist/
+
+# generated reports
+*.pdf
