@@ -1,0 +1,14 @@
+KaTeX version: v0.17.0
+Source: https://github.com/KaTeX/KaTeX/releases/download/v0.17.0/katex.tar.gz
+Fetched: 2026-07-09
+
+Vendored files:
+  katex.min.js   (271,142 bytes)
+  katex.min.css  (23,826 bytes)
+  fonts/*.woff2  (20 files; .woff/.ttf duplicates removed to keep this
+                  directory lean since all target browsers/engines used by
+                  QWebEngineView support WOFF2)
+
+Used by bolted_flange_calc_v2.py to render the Calculation Trace tab via
+QWebEngineView (KaTeX display-mode rendering of the LaTeX carried on each
+TraceEntry).
